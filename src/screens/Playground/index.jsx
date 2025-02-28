@@ -2,7 +2,6 @@ import React, { useContext, useState } from 'react'
 import EditorContainer from './EditorContainer'
 import InputConsole from './InputConsole'
 import OutputConsole from './OutputConsole'
-import Navbar from './Navbar'
 import styled from 'styled-components'
 import { useParams } from 'react-router-dom'
 import { languageMap, PlaygroundContext } from '../../context/PlaygroundContext'
@@ -160,7 +159,6 @@ const Playground = () => {
 
   return (
     <div>
-      <Navbar isFullScreen={isFullScreen} />
       <MainContainer isFullScreen={isFullScreen}>
         <EditorContainer
           title={title}
