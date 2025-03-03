@@ -73,7 +73,7 @@ const LeftComponent = () => {
         <StyledLeftComponent>
             <ContentContainer>
                 <Logo src={logo} alt="" />
-                <MainHeading> <span>Wipe</span> Code</MainHeading>
+                <MainHeading> <span>Vibe</span> Code</MainHeading>
                 <SubHeading>Code. Compile. Debug.</SubHeading>
                 <AddNewButton onClick={() => openModal({
                     show: true,
